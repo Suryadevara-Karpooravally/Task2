@@ -12,16 +12,8 @@ public class Interest{
     private final double period;
     private int n;
 
-    // constructor to accept values required to calculate simpleInterest
-    Interest(double principle,double rate,double period){
 
-        this.principle=principle;
-        this.rate=(rate/100);
-        this.period=period;
-
-    }
-
-    // constructor to accept values required to calculate compound interest
+    // constructor to accept values required to calculate interest
     Interest(double principle,double rate,double period,int n){
 
         this.principle=principle;
